@@ -1,0 +1,40 @@
+.carousel {
+    overflow: hidden;
+    width: 465px; /* Задайте ширину каруселі */
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.carousel-item {
+    width: 465px; /* Задайте ширину слайдів */
+} 
+
+.carousel-img {
+    border-radius: 13px;
+}
+
+.carousel-dots {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.dot {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-inline: 15px;
+    background-color: #8C5555;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #FFFFFF;
+}

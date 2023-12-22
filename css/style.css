@@ -72,12 +72,6 @@ main {
     color: rgba(65, 32, 1, 0.83);
 }
 
-.carousel {
-    width: 465px;
-    margin-right: 28px;
-}
-
-
 footer {
     display: flex;
     background-color: #5B4040;
