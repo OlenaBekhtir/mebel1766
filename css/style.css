@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600;700&display=swap');
+
+
+body {
+    background-color: #B0A08E;
+    font-family: 'Mirza', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgba(70, 20, 38, 0.42);
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    width: 46px;
+    height: 106px;
+    background-color: #5C2C2C;
+}
+
+.header-wrap {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.header-title {
+    display: block;
+    color: #412001;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.title-center {
+    margin-left: 30%;
+}
+
+.header-img {
+    width: 44px;
+    height: 42px;
+    margin-left: auto;
+}
+
+main {
+    display: flex;
+}
+
+.main-side {
+    width: 46px;
+    height: 100hv;
+    background-color: rgba(92, 44, 44, 0.35);
+}
+
+.main-content {
+    display: flex;
+    width: calc(100% - 46px);
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.content-text {
+    width: 50%;
+    margin-left: 28px;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(65, 32, 1, 0.83);
+}
+
+.carousel {
+    width: 465px;
+    margin-right: 28px;
+}
+
+
+footer {
+    background-color: #5B4040;
+}
+
+.footer-button {
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(221, 147, 147, 0.59);
+}
