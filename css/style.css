@@ -219,3 +219,49 @@ figcaption {
     margin-top: 10px;
     border: none;
 }
+
+.main-price{
+    display: flex;
+    flex-direction: column;
+    width: 940px;
+    margin-left: 28px;
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+
+.price-title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #412001;
+}
+
+.price-text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #412001;
+}
+
+.main-about {
+    display: flex;
+    flex-direction: column;
+    width: 940px;
+    margin-left: 28px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.about-text {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #412001;
+}
+
+.about-title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #412001;
+}
