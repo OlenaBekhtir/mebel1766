@@ -7,13 +7,24 @@
     <title>TRV</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/burger-menu.css">
     <link rel="shortcut icon" href="./img/Group 6.png" type="image/x-icon">
 </head>
 
 <body>
     <header>
         <div class="header-menu">
-            <img src="./img/align-justify.png" alt="icon-menu" />
+            <div class="burger-icon" onclick="toggleMenu()">
+                <img src="./img/align-justify.png" alt="icon-menu" />
+            </div>
+            <div class="wrap-menu">
+                <ul class="menu-items">
+                    <li><a href="./index.html">Головна</a></li>
+                    <li><a href="./projects.html">Реалізовані проекти</a></li>
+                    <li><a href="./price.html">Оплата та доставка</a></li>
+                    <li><a href="./about.html">Про нас</a></li>
+                </ul>
+            </div>
         </div>
         <div class="header-wrap">
             <h1 class="header-title title-center">Реалізовані проекти</h1>
@@ -124,6 +135,7 @@
         </div>
     </footer>
 
+    <script src="./js/script.js"></script>
 
 </body>
 
